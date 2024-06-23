@@ -5,7 +5,7 @@ patterns from different features. Next, the knowledge distillation technique is 
 ![image](https://github.com/skybluewhy/MKDBAN-TEI/blob/main/figures/Figure2.png)
 
 # Dependencies
-TEINet is writen in Python based on Pytorch. The required software dependencies are listed below:
+MKDBAN-TEI is writen in Python based on Pytorch. The required software dependencies are listed below:
 
 ```
 torch
@@ -21,7 +21,7 @@ Obtain esm features:
 ```
 python data/get_feat.py
 ```
-Training TEINet:
+Training MKDBAN-TEI:
 ```
 python run_model.py --device "cuda" --epoch 50 --batch_size 64 --train_dataset "./data/train0.csv" --test_dataset "./data/test0.csv"
 ```
