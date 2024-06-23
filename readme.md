@@ -14,7 +14,7 @@ pandas
 scikit-learn
 ```
 # Data
-All the data used in the paper is collected from public databases. We also upload the processed data in the data package.
+All the data used in the paper are collected from public databases. We also upload the processed data in the data package.
 
 # Usage of MKDBAN-TEI
 Obtain esm features:
