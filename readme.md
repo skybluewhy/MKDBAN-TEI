@@ -1,5 +1,5 @@
 # MKDBAN-TEI
-MKDBAN-TEI is designed for predicting TCR-epitope binding. We encode TCR and epitope sequences using a learnable residue embedding matrix and employ CNN layers to extract features. An interpretable bilinear attention network isthen used to capture the interaction patterns between TCR and epitope. To improve the model’s performance and generalization capability, we introduce three types of protein sequence features and train additional multiple teacher models to capture biologically meaningful binding 
+MKDBAN-TEI is designed for predicting TCR-epitope binding. We encode TCR and epitope sequences using a learnable residue embedding matrix and employ CNN layers to extract features. An interpretable bilinear attention network is then used to capture the interaction patterns between TCR and epitope. To improve the model’s performance and generalization capability, we introduce three types of protein sequence features and train additional multiple teacher models to capture biologically meaningful binding 
 patterns from different features. Next, the knowledge distillation technique is utilized to transfer the knowledge from trained multi-teacher models to the student model.
 ![image](https://github.com/skybluewhy/MKDBAN-TEI/blob/main/figures/Figure1.png)
 ![image](https://github.com/skybluewhy/MKDBAN-TEI/blob/main/figures/Figure2.png)
