@@ -17,11 +17,15 @@ scikit-learn
 All the data used in the paper is collected from public databases. We also upload the processed data in the data package.
 
 # Usage of MKDBAN-TEI
+Obtain esm features:
+```
+python get_feat.py
+```
 Training TEINet:
 ```
 python run_model.py --device "cuda" --epoch 50 --batch_size 64 --train_dataset "./data/train0.csv" --test_dataset "./data/test0.csv"
 ```
 Predict TCR-epitope pairs:
 ```
-python run_model.py --device "cuda" --epoch 50 --batch_size 64 --train_dataset "./data/train0.csv" --test_dataset "./data/test0.csv" --only_test True
+python run_model.py --device "cuda" --epoch 50 --batch_size 64 --test_dataset "./data/test0.csv" --only_test True --save_model "./checkpoint.pt"
 ```
