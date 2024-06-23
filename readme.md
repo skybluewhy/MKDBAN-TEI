@@ -19,7 +19,7 @@ All the data used in the paper is collected from public databases. We also uploa
 # Usage of MKDBAN-TEI
 Obtain esm features:
 ```
-python get_feat.py
+python data/get_feat.py
 ```
 Training TEINet:
 ```
